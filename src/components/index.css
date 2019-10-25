@@ -1,0 +1,185 @@
+.lyd{
+  margin-bottom: 30px;
+}
+.content-box {
+  position: relative;
+  width: 90%;
+  height: 480px;
+  margin: 0 auto 30px;
+  border-radius: 20px;
+  background-color: #fff;
+}
+.content {
+  position: absolute;
+  width: 78.933333vw;
+  top: 9.666667vw;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.content .con-tit {
+  text-align: center;
+  font-size: 30px;
+  color: #373737;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.input {
+  position: relative;
+  margin-top: 2.666667vw;
+}
+.input input {
+  display: block;
+  background-color: #fff;
+  width: 84%;
+  height: 11.466667vw;
+  border: 1px solid #999;
+  outline: none;
+  border-radius: 5.733333vw;
+  font-size: 3.466667vw;
+  padding-left: 16%;
+  font-weight: bold;
+}
+.input .icon {
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.input .icon1 {
+  width: 3.733333vw;
+  height: 5.066667vw;
+  background-image: url(../assets/img/icon1.png);
+  left: 8vw;
+  top: 3.8vw;
+}
+.input .icon2 {
+  width: 4.266667vw;
+  height: 3.466667vw;
+  background-image: url(../assets/img/icon2.png);
+  left: 8vw;
+  top: 4.4vw;
+}
+.input .getUserCodeBtn {
+  position: absolute;
+  width: 33.066667vw;
+  height: 8.533333vw;
+  line-height: 8.533333vw;
+  text-align: center;
+  font-size: 3.466667vw;
+  border-radius: 4.266667vw;
+  color: #fff;
+  background-color: #009c84;
+  right: 1.333333vw;
+  top: 1.866667vw;
+}
+.agreement-wrap {
+  width: 75%;
+  margin: 2.666667vw auto 0;
+}
+.agreement-wrap .agree-img {
+  width: 5.466667vw;
+  height: 5.333333vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  float: left;
+}
+.agreement-wrap .agree-img.agree {
+  background-image: url("../assets/img/agree.png");
+}
+.agreement-wrap .agree-img.unagree {
+  background-image: url("../assets/img/unagree.png");
+}
+.agreement-wrap .agree-link {
+  float: left;
+  font-size: 3.2vw;
+  color: #222;
+  margin: 4px 0 0 10px;
+  text-decoration: none;
+}
+.agreement-wrap .agree-link .green {
+  color: #00a282;
+}
+.submit-btn-wrap {
+  margin-top: 2.666667vw;
+}
+.submit-btn {
+  display: block;
+  width: 100%;
+  border: 0;
+  outline: none;
+  background-color: #009c84;
+  height: 10.666667vw;
+  line-height: 10.666667vw;
+  color: #fff;
+  text-align: center;
+  border-radius: 5.333333vw;
+  font-weight: bold;
+  padding: 0;
+}
+.gray {
+  background-color: #ccc !important;
+}
+
+/* 弹窗 */
+/* 修改vant弹窗默认样式 */
+.van-popup{
+  width: 80%;
+  background-color: transparent;
+  overflow-y: visible;
+}
+.cup-con-close {
+  position: absolute;
+  font-size: 6vw;
+  right: 2px;
+  top: 2px;
+  cursor: pointer;
+  color: #999;
+  z-index: 2;
+}
+.item-two{
+  display: flex;
+  display: -webkit-flex;
+}
+.item-f{
+  width: 20%;
+  position: fixed;
+  right: 0;
+  top: 45%;
+}
+.rule-box{
+  text-align: left;
+  padding: 0 30px 100px;
+}
+.rule-box .rule-txt1{
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.rule-box .rule-txt2{
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.result-box{
+  padding: 50px 0;
+}
+.result-box .result-txt1{
+  font-size: 26px;
+  color: #3e3a39;
+  line-height: 36px;
+}
+.result-box .result-btns{
+  display: flex;
+  justify-content:center;
+  margin-top: 40px;
+}
+.result-box .result-btns a{
+  width: 290px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  background-color: #f2826f;
+  border-radius: 35px;
+  color: #fff;
+}
+.result-box .result-btns a.result-btn2{
+  margin-left: 40px;
+  background-color: #009c84;
+}

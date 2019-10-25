@@ -1,0 +1,51 @@
+{
+"account": "M19100000124",
+"accountAllPoint": 0,
+"availableIntegral": null,
+"availablePoint": 0,
+"birthday": "",
+"city": "",
+"country": "",
+"createTime": "2019-10-21 17:06:42",
+"distribution": null,
+"empNo": "",
+"expireIntegral": null,
+"headImgUrl": "",
+"integral": null,
+"isPayment": null,
+"isSignIn": null,
+"lastConsuDate": "",
+"memberBrand": "purcotton",
+"memberCardNo": "",
+"memberGoodsVo": null,
+"memberLevel": "1",
+"memberLevelName": "��ѿ",
+"memberType": "",
+"mpOpenId": "",
+"nickname": "",
+"paymentVipInfo": null,
+"phone": "13715046110",
+"protectedIntegral": null,
+"province": "",
+"realName": "",
+"referees": "",
+"remark": "",
+"sex": null,
+"totalConsuAmount": 0.0,
+"unionId": "",
+"usedIntegral": null,
+"vipEmpNo": "",
+"weChatInfoList": [
+{
+"appOpenIdList": [],
+"mpOpenIdList": [],
+"pcOpenIdList": [],
+"subjectCompany": "",
+"unionId": "",
+"wechatOpenIdList": []
+}
+]
+}
+
+
+http://172.16.80.176:6687:6687/api/member/webpage/register?phone=13715046110
